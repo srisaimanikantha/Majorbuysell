@@ -3,8 +3,8 @@ const app = express();
 const port = 3000;
 
 const connectDB = require("./DB/db");
-const authRoutes = require("./routes/auth.route");
-const productRoutes = require("./routes/product.route");
+const authRoutes = require("./routes/auth.route.js");
+const productRoutes = require("./routes/product.route.js");
 
 app.use(express.json());
 
